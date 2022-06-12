@@ -76,17 +76,17 @@ function display(){
   for( let i=0 ; i<displayDays.length ; i++){
 
     if (indexDay > 6){
-        indexDay == 0
+        indexDay = 0
       }
-      let day = {
-        day1: days[indexDay++]
-      }
-      displayDays[i].innerHTML = `
-      <div>${day.day1}</div>
-      `
+    let day = {
+      day1: days[indexDay++]
+    }
+    displayDays[i].innerHTML = `
+    <div>${day.day1}</div>
+    `
 
-      headMother.innerHTML = `
-      <div>${dayMonth}</div>`
+    headMother.innerHTML = `
+    <div>${dayMonth}</div>`
 
    }
 
