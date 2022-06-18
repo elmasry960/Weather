@@ -149,8 +149,11 @@ footer {
 }
 
 footer a {
+  display: inline-block;
+  line-height: 2;
   width: 40px;
   height: 40px;
+  text-align: center;
   text-decoration: none;
   color: var(--mainColor);
   margin-left: 0.5rem;
